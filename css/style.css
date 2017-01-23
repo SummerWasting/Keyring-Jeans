@@ -1,0 +1,191 @@
+/*
+Project Name: Keyring Jeans
+Author: Oscar Selden
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+/*All Pages*/
+
+body { 
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+
+.navbar-default .navbar{
+
+  background: #000;
+  color: #fff;
+
+}
+
+.navbar-default .navbar-nav>li>a {
+  color:#fff;
+  font-size: 13px;
+
+}
+
+
+.navbar-brand {
+    font-size: 30px;
+    font-family: 'Droid Sans Mono', monospace;
+    color: #fff !important;
+    margin-left: 15px;
+}
+
+
+
+.navbar-brand:after {
+    content:"Keyring Jeans";
+}
+
+.navbar-brand:hover:after {
+   color: red;
+  
+}
+
+.navbar a {
+  color: inherit;
+  text-decoration: none;
+  padding-right: 5px;
+}
+.navbar {
+  float: left;
+  color: #fff;
+  font-family: 'Droid Sans Mono', monospace;
+  border: 0;
+  width: 100%;
+  border-bottom: solid 5px black;
+  background: #000;
+  color: #fff;
+  overflow: hidden;
+}
+
+
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: green;
+}
+
+#nav-margin {
+  margin-bottom: -20px;
+}
+
+/*Home Page*/
+
+#hill {
+
+background-image: url(../images/KJ-Pointy.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: 0px -150px;
+background-attachment: fixed;
+height: 650px;
+
+
+}
+
+
+
+#footer {
+  text-align: center;
+  background-color: #000;
+}
+
+#footer-logo{
+
+  float: left;
+  font-family: 'Droid Sans Mono', monospace;
+  margin-left: 15px;
+  font-size: 15px;
+}
+
+#footer-logo:hover{
+  color: red;
+
+}
+
+.fa {
+  margin-right: 40px;
+}
+
+.fa:hover {
+  color: green;
+  
+
+}
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1151px) {
+
+  body {
+
+    margin-right: -30px;
+  }
+
+#hill {
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  width: 100%;
+
+}
+
+#nav-options {
+
+  padding-right: 50px;
+}
+
+#nav-button {
+  margin-right: 60px;
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 568px) {
+
+  .fa {
+  margin-right: 10px;
+}
+
+}
+
+
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+    
+}
