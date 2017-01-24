@@ -86,22 +86,6 @@ body {
   margin-bottom: -20px;
 }
 
-/*Home Page*/
-
-#hill {
-
-background-image: url(../images/KJ-Pointy.jpg);
-background-size: cover;
-background-repeat: no-repeat;
-background-position: 0px -150px;
-background-attachment: fixed;
-height: 650px;
-
-
-}
-
-
-
 #footer {
   text-align: center;
   background-color: #000;
@@ -127,7 +111,66 @@ height: 650px;
 .fa:hover {
   color: green;
   
+}
 
+.jjj:hover {
+color: green;
+
+}
+
+/*Home Page*/
+
+#hill {
+
+background-image: url(../images/KJ-Pointy.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: 0px -150px;
+background-attachment: fixed;
+height: 650px;
+
+
+}
+
+/*About Page*/
+
+#about {
+
+  background-image: url(../images/KJ-04.jpg);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0px -150px;
+}
+
+h1 {
+
+  font-family: 'Droid Sans Mono', monospace;
+  color: #fff;
+  text-align: center;
+  display: block;
+  line-height: 500px;
+
+}
+
+#words {
+  font-family: 'Droid Sans Mono', monospace;
+  font-size: 15px;
+  text-align: center;
+  padding: 40px;
+}
+
+/*Gigs*/
+
+.shows {
+  font-family: 'Droid Sans Mono', monospace;
+  font-size: 15px;
+
+  color: #000;
+}
+
+.record-crate {
+  float: right;
 }
 
 /*==========  Non-Mobile First Method  ==========*/
@@ -165,6 +208,33 @@ height: 650px;
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+
+  #about {
+
+  background-image: url(../images/KJ-04.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  
+}
+
+h1 {
+
+  font-family: 'Droid Sans Mono', monospace;
+  color: #fff;
+  text-align: center;
+  display: block;
+  line-height: 200px;
+
+}
+
+#words {
+  font-family: 'Droid Sans Mono', monospace;
+  font-size: 12px;
+  text-align: center;
+  margin: 10px;
+  margin-top: -150px;
+}
 
 }
 
