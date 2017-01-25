@@ -192,6 +192,19 @@ h1 {
   float: right;
 }
 
+/*Contact*/
+
+#booking {
+  background-color: rgba(46, 70, 198, 0.2);
+}
+
+#walking {
+  margin-bottom: 15px;
+}
+
+#sayHello {
+  margin-left: 0px;
+}
 /*==========  Non-Mobile First Method  ==========*/
 
 /* Large Devices, Wide Screens */
