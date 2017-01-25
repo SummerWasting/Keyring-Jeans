@@ -141,6 +141,7 @@ height: 650px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0px -150px;
+  margin-top: 15px;
 }
 
 h1 {
@@ -162,15 +163,26 @@ h1 {
 
 /*Gigs*/
 
-.shows {
-  font-family: 'Droid Sans Mono', monospace;
-  font-size: 15px;
+#gigs {
+  background-color: rgba(0,0,255, 0.5);
 
-  color: #000;
 }
 
-.record-crate {
+#shows {
+  font-family: 'Droid Sans Mono', monospace;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  height: 15px;
+  color: #000;
+  display: block;
+  text-align: center;
+  font-size: 25px;
+  line-height: 0px;
+}
+
+#record-crate {
   float: right;
+  margin-bottom: 15px;
 }
 
 /*Music*/
