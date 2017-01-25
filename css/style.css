@@ -173,6 +173,13 @@ h1 {
   float: right;
 }
 
+/*Music*/
+
+#music-pic {
+  height: 470px;
+  float: right;
+}
+
 /*==========  Non-Mobile First Method  ==========*/
 
 /* Large Devices, Wide Screens */
