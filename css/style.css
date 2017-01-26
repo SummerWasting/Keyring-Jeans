@@ -118,6 +118,10 @@ color: green;
 
 }
 
+#phoneFooter {
+  display: none;
+}
+
 /*Home Page*/
 
 #hill {
@@ -190,7 +194,46 @@ h1 {
 #music-pic {
   height: 470px;
   float: right;
+
 }
+
+
+/*Photos*/
+
+#photos {
+
+  background-color: #fff;
+  height: 50px; 
+  margin-bottom: 10px;
+  margin-top: 30px;
+
+
+}
+
+#us {
+  color: #000;
+  text-align: center;
+  display: block;
+  line-height: 0px;
+}
+
+
+.keyringPhotos {
+  border: 2px solid black;
+  margin-bottom: 10px;
+  margin-top: 10px;
+
+}
+
+.keyringPhotos:hover {
+
+
+  opacity: 0.5;
+  transform: scale (1.1, 1.1);
+  padding: 15px;
+
+}
+
 
 /*Contact*/
 
@@ -205,6 +248,7 @@ h1 {
 #sayHello {
   margin-left: 0px;
 }
+
 /*==========  Non-Mobile First Method  ==========*/
 
 /* Large Devices, Wide Screens */
@@ -235,6 +279,11 @@ h1 {
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+
+  .keyringPhotos {
+    width: 150px;
+  
+}
 
 }
 
@@ -284,6 +333,31 @@ h1 {
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 480px) {
+
+#desktopFooter {
+  display: none;
+}
+
+#phoneFooter {
+  display: inline;
+  font-size: 12px;
+  margin-left: -15px;
+}
+
+#hill {
+  background-size: contain;
+
+}
+
+.jjj {
+height: 25px;
+
+}
+
+.keyringPhotos {
+ width: 100px;
+  
+}
 
 }
 
