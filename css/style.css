@@ -136,6 +136,10 @@ height: 650px;
 
 }
 
+#hillSmall {
+  display: none;
+}
+
 /*About Page*/
 
 #about {
@@ -377,6 +381,8 @@ h1 {
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 480px) {
 
+
+
 #desktopFooter {
   display: none;
 }
@@ -417,7 +423,12 @@ height: 25px;
   }
 
   #hill {
-    background-position: center;
+    background-image: url(../images/hillSmall.jpg);
+    background-attachment: scroll;
+    background-size: contain;
+    background-color: #000;
+    width: 100%;
+
    
   }
 
@@ -435,11 +446,15 @@ height: 25px;
 
 iframe {
 
-    width: 150px; 
-
-    height: 235px;
+    width: 200px; 
+    height: 400px;
+    margin-bottom: 10px;
 }
 
+#newtownSocial {
+  height: 400px;
+  width: 90%;
+}
 
 }
 
