@@ -140,11 +140,10 @@ height: 650px;
 
 #about {
 
-  background-image: url(../images/KJ-04.jpg);
+  background-image: url(../images/KJ-01.jpg);
   height: 500px;
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 0px -150px;
+  background-position: center;
   margin-top: 15px;
 }
 
@@ -168,7 +167,7 @@ h1 {
 /*Gigs*/
 
 #gigs {
-  background-color: rgba(0,0,255, 0.5);
+  background-color: #fff;
 
 }
 
@@ -184,17 +183,26 @@ h1 {
   line-height: 0px;
 }
 
-#record-crate {
-  float: right;
+#newtownSocial {
+
   margin-bottom: 15px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
 }
+
+
 
 /*Music*/
 
-#music-pic {
-  height: 470px;
-  float: right;
-
+iframe {
+border: 0; 
+width: 300px; 
+margin-left: auto;
+margin-right: auto;
+display: block;
+height: 470px;
 }
 
 
@@ -238,12 +246,13 @@ h1 {
 /*Contact*/
 
 #booking {
-  background-color: rgba(46, 70, 198, 0.2);
+  background-color: rgba(183, 211, 235, 0.2);
 }
 
 #walking {
   margin-bottom: 15px;
   float: right;
+  margin-right: 10px;
 }
 
 #sayHello {
@@ -310,7 +319,7 @@ h1 {
     font-size: 12px;
     text-align: center;
     margin: 10px;
-    margin-top: -150px;
+    
 }
 
 }
@@ -374,8 +383,14 @@ h1 {
 
 #phoneFooter {
   display: inline;
-  font-size: 12px;
-  margin-left: -15px;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 15px;
+
+}
+
+#footer-logo {
+  display: none;
 }
 
 
@@ -390,7 +405,7 @@ height: 25px;
 }
 
   #walking {
-    width: 60%;
+    display: none;
   }
 
   #about {
@@ -400,6 +415,31 @@ height: 25px;
   #words {
     margin-top: -100px;
   }
+
+  #hill {
+    background-position: center;
+   
+  }
+
+  #music-pic {
+    display: none;
+  }
+
+  #record-crate {
+    display: none;
+  }
+
+  .navbar-brand {
+    font-size: 20px;
+  }
+
+iframe {
+
+    width: 150px; 
+
+    height: 235px;
+}
+
 
 }
 
