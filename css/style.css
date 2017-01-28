@@ -272,10 +272,12 @@ height: 470px;
 }
 
 #sayHello {
-  float: left;
+
+
   margin-bottom: 10px;
-  margin-left: 10px;
-  color: #000;
+  text-align: center;
+  display: block;
+  color: #fff;
 }
 
 
