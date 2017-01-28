@@ -280,6 +280,13 @@ height: 470px;
   color: #000;
 }
 
+input{
+  color: #000;
+}
+
+textarea {
+  color: #000;
+}
 
 
 /*==========  Non-Mobile First Method  ==========*/
