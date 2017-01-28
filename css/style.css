@@ -277,7 +277,7 @@ height: 470px;
   margin-bottom: 10px;
   text-align: center;
   display: block;
-  color: #000 important!;
+  color: #000 !important;
 }
 
 input{
