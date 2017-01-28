@@ -54,7 +54,7 @@ body {
 }
 
 .navbar-brand:hover:after {
-   color: red;
+   color: #3AF52A;
   
 }
 
@@ -78,7 +78,7 @@ body {
 
 
 .navbar-default .navbar-nav>li>a:hover {
-  color: green;
+  color: #3AF52A;
 }
 
 #nav-margin {
@@ -103,7 +103,7 @@ body {
 }
 
 #footer-logo:hover{
-  color: green;
+  color: #3AF52A;
 
 }
 
@@ -112,12 +112,12 @@ body {
 }
 
 .fa:hover {
-  color: green;
+  color: #3AF52A;
   
 }
 
 .jjj:hover {
-color: green;
+color: #3AF52A;
 
 }
 
