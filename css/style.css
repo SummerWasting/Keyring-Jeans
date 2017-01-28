@@ -141,9 +141,7 @@ margin-left: 0px;
 
 }
 
-#hillSmall {
-  display: none;
-}
+
 
 /*About Page*/
 
@@ -269,6 +267,7 @@ height: 470px;
 #walking {
   margin-bottom: 15px;
   float: right;
+  width: 50%;
   margin-right: 10px;
 }
 
@@ -311,7 +310,8 @@ height: 470px;
 }
 
   #walking {
-    width: 75%;
+    width: 40%;
+    padding-right: 50px;
   }
 
 /* Medium Devices, Desktops */
@@ -472,4 +472,14 @@ iframe {
 /* Custom, iPhone Retina */ 
 @media only screen and (max-width : 320px) {
     
+ #hill {
+ 
+    background-size: 450px;
+
+
+   
+  }
+   
+  }
+
 }
