@@ -211,13 +211,14 @@ h1 {
      
 }
 
-iframe {
-border: 0; 
-width: 300px; 
-margin-left: auto;
-margin-right: auto;
-display: block;
-height: 470px;
+.bandcampMusic {
+  height: 300px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 20px;
+
 }
 
 
