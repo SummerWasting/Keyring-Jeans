@@ -206,6 +206,11 @@ h1 {
 
 /*Music*/
 
+#music {
+   height: 600px;
+     
+}
+
 iframe {
 border: 0; 
 width: 300px; 
