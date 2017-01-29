@@ -273,12 +273,11 @@ height: 470px;
 
 #sayHello {
 
-
   margin-bottom: 10px;
   text-align: center;
   display: block;
   color: #fff !important;
-     height: 600px;
+  height: 600px;
 }
 
 input{
