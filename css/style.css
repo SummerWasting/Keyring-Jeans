@@ -222,6 +222,15 @@ h1 {
 }
 
 
+.silence {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+
+}
+
 /*Photos*/
 
 #photos {
@@ -472,17 +481,24 @@ height: 50px;
     font-size: 20px;
   }
 
-iframe {
-
-    width: 200px; 
-    height: 400px;
-    margin-bottom: 10px;
-}
 
 #newtownSocial {
   height: 400px;
   width: 90%;
 }
+
+
+.bandcampMusic {
+  height: 150px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 20px;
+
+}
+
+
 
 }
 
