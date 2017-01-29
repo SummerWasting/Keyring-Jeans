@@ -282,10 +282,12 @@ height: 470px;
 
 input{
   color: #000;
+  width: 40%;
 }
 
 textarea {
   color: #000;
+     width: 40%;
 }
 
 
